@@ -1,3 +1,5 @@
+
+
 .container {
     display: flex;
     background-color: rgb(86, 86, 168);
@@ -16,6 +18,7 @@
     padding-right: 16px;
     justify-content: space-between;
     align-items: center;  
+    font-family: Arial, Helvetica, sans-serif;
     
     
 }
@@ -51,6 +54,7 @@ li{
     font-weight: bold;
     color: white;
     width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .subtext  {
     display: flex;
@@ -58,6 +62,7 @@ li{
     color: white;
     width: 450px;
     font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 button {
@@ -71,6 +76,7 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .two {
@@ -120,13 +126,74 @@ img {
     flex-direction: column;
 
 }
-.first-box {
+
+.first-box, .second-box {
     display: flex;
-    width: 450px;
+    width: 550px;
+    align-items: center;
+    margin-left: 350px;
+    justify-content: right;
+    margin-top: 80px;
+
+ 
 }
 .text {
     font-size: 32px;
-    font-weight: lighter;
-   
+    font-weight: unset;
+    width: 560px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.text-one {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-four {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-one {
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(44, 161, 201);
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 50px;
 
+}
+.info-one {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info-two {
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.button2 {
+    background-color: rgb(44, 161, 201);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container-five {
+    display: flex;
+    background-color: rgb(68, 68, 68);
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+.footer {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
