@@ -1,19 +1,15 @@
-
-
 .container {
     display: flex;
-    background-color: rgb(86, 86, 168);
+    background-color: #1F2937;
     height: 500px;
-    margin: 0;
-    padding: 0;
     flex-flow: column;
 }
 
-.header, ul {
+.header {
     display: flex;
     font-weight: bold;
-    color: white;
-    font-size: 22px;
+    color: #E5E7EB;
+    font-size: 24px;
     padding-left: 160px;
     padding-right: 80px;
     justify-content: space-between;
@@ -25,13 +21,16 @@
 
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
     font-size: 18px;
     font-weight: 100;
+    
     
 }
 ul {
     gap: 25px;
+    display: flex;
+    
 }
 li{
     list-style: none;
@@ -41,34 +40,34 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row;
-    padding-top: 100px;
     gap: 40px;
+    padding-top: 100px;
     
 }
 
 .main-title {
     display: flex;
     align-items: center;
-    font-size: 45px;
+    font-size: 48px;
     font-weight: bold;
-    color: white;
-    width: 450px;
+    color: #f9faf8;
     font-family: Arial, Helvetica, sans-serif;
+    width: 450px;
+    
 }
 .subtext  {
     display: flex;
     align-items: center;
-    color: white;
-    width: 450px;
-    font-size: 22px;
+    color: #E5E7EB;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 450px;
 
 }
 button {
     margin-top: 8px;
-    background-color: rgb(66, 99, 209);
-    color: white;
+    background-color: #3882f6;
+    color: #E5E7EB;
     font-size: 18px;
     font-weight: bold;
     padding-left: 22px;
@@ -79,25 +78,22 @@ button {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.one, img {
-    justify-content: center;
-    align-items: center;
-    width: 450px;
-    height: 200px;
-}
+
 .container-one {
     display: flex;
     height: 500px;
     flex-direction: column;
+   
 }
 .information {
     display: flex;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: auto;
     padding-top: 18px;
     justify-content: center;
+    color: #1F2937;
 }
 
 .box {
@@ -112,7 +108,7 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 8px;
 }
-.second, img {
+img {
     max-width: 200px;
     height: 200px;
     border-radius: 15px;
@@ -120,24 +116,30 @@ button {
 .container-three {
     display: flex;
     height: 400px;
-    background-color: lightslategray;
+    background-color: #E5E7EB;
     flex-direction: column;
 
 }
 
-.first-box, .second-box {
+.first-box {
     display: flex;
     width: 550px;
     align-items: center;
     margin-left: 350px;
     justify-content: right;
     margin-top: 80px;
-
- 
 }
+.second-box {
+    display: flex;
+    width: 550px;
+    justify-content: right;
+    margin-left: 350px;
+
+}
+
 .text {
-    font-size: 32px;
-    font-weight: unset;
+    font-size: 36px;
+    font-weight: lighter;
     width: 560px;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -158,7 +160,7 @@ button {
     display: flex;
     width: 1000px;
     height: 100px;
-    background-color: rgb(44, 161, 201);
+    background-color: #3882f6;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
@@ -178,13 +180,13 @@ button {
 
 }
 .button2 {
-    background-color: rgb(44, 161, 201);
+    background-color: #3882f6;
     padding-left: 20px;
     padding-right: 20px;
 }
 .container-five {
     display: flex;
-    background-color: rgb(68, 68, 68);
+    background-color: #1F2937;
     justify-content: center;
     align-items: center;
     height: 100px;
@@ -195,3 +197,4 @@ button {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
